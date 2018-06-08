@@ -14,8 +14,9 @@
     ],
     houseType: [
       'flat',
+      'bungalo',
       'house',
-      'bungalo'
+      'palace'
     ],
     checkIn: [
       '12:00',
@@ -45,6 +46,10 @@
     map: document.querySelector('.map'),
     form: document.querySelector('.notice__form'),
     mapPinMain: document.querySelector('.map__pin--main'),
+    myHouseType: document.querySelector('#type'),
+    myPrice: document.querySelector('#price'),
+    myTimeIn: document.querySelector('#timein'),
+    myTimeOut: document.querySelector('#timeout'),
 
   };
 })();

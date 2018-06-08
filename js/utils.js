@@ -35,6 +35,8 @@
         return 'Квартира';
       } else if (type === 'house') {
         return 'Дом';
+      } else if (type === 'palace') {
+        return 'Дворец';
       } else {
         return 'Бунгало';
       }
